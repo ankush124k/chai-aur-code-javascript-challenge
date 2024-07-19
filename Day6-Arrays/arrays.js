@@ -51,4 +51,4 @@ const twoArr = [
 ];
 console.log("two dimwntional array :" + twoArr);
 
-console.log("middle element ([2][2]) =" + twoArr[2][3]);
+console.log("middle element ([2][2]) =" + twoArr[2][2]);
