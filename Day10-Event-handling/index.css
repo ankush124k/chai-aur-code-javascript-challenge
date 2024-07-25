@@ -1,0 +1,14 @@
+#image {
+  width: 124px;
+  height: 124px;
+}
+
+.hidden {
+  display: none;
+}
+
+#bgChange{
+    width:100%;
+    padding:25px;
+    background-color: coral;
+}
