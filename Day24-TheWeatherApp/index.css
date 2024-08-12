@@ -1,0 +1,70 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.container{
+    background-color: skyblue;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+    max-width: 90%;
+}
+.container.expanded {
+    width: 90%;
+    max-width: 800px;
+    padding: 50px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #fff;
+}
+
+.search-container {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.city-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+#forcast-info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.forecast-item img {
+    width: 40px;
+    height: 40px;
+}
+
+.forecast-item p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+.forecast-item {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: calc(20% - 10px);
+    margin: 0 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}

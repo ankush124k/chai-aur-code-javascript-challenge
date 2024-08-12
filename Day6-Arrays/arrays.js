@@ -52,3 +52,30 @@ const twoArr = [
 console.log("two dimwntional array :" + twoArr);
 
 console.log("middle element ([2][2]) =" + twoArr[2][2]);
+
+
+//interview question  for given input 
+// const fruits = [
+//   { name: "banana", count: 5 },
+//   { name: "apple", count: 4 },
+//   { name: "graps", count: 9 },
+//   { name: "banana", count: 7 },
+//   { name: "apple", count: 3 },
+// ];
+// output:
+// const fruits=[{name:"banana",count:12},
+// {name:"apple",count:7},
+// {name:"graps",count:9},]
+
+//solution
+// const newFruits = fruits.reduce((acc, fruit) => {
+//   const val = acc.find((item) => item.name === fruit.name);
+//   if (val) {
+//     val.count += fruit.count;
+//   } else {
+//     acc.push({ ...fruit });
+//   }
+//   return acc;
+// }, []);
+
+// console.log(newFruits);
